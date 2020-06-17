@@ -31,6 +31,8 @@ const EditFieldForm = ({
     `${prefix}_id`
   ];
 
+  selectOptions.sort((a, b) => (a[`${prefix}_desc`].length > 5 ? 1 : -1));
+
   return (
     <form onSubmit={e => handleSubmit(e)}>
       <Input
