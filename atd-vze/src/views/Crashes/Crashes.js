@@ -1,6 +1,7 @@
 import React from "react";
 import { withApollo } from "react-apollo";
 
+// import { GridTable } from "atd-kickstand";
 import GridTable from "../../Components/GridTable";
 import gqlAbstract from "../../queries/gqlAbstract";
 import { crashQueryExportFields } from "../../queries/crashes";
@@ -27,6 +28,7 @@ let queryConf = {
 let crashesQuery = new gqlAbstract(queryConf);
 
 let customFilters = crashGridTableAdvancedFilters;
+
 
 const Crashes = () => (
   <GridTable

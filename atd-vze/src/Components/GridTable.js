@@ -41,14 +41,6 @@ const GridTable = ({
   widgetsConfig,
   helperText,
 }) => {
-  console.log(title);
-  console.log(query);
-  console.log(filters);
-  console.log(columnsToExport);
-  console.log(aggregateQueryConfig);
-  console.log(chartConfig);
-  console.log(widgetsConfig);
-  console.log(helperText);
   // Load table filters from localStorage by title
   const savedFilterState = JSON.parse(
     localStorage.getItem(`saved${title}Config`)
@@ -384,6 +376,7 @@ const GridTable = ({
   query.offset = offset;
 
   // Show us the current state of the query in the console!
+  console.log("Local GridTable");
   console.log(query.query);
 
   /**

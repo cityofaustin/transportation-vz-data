@@ -11,7 +11,7 @@
     "url": "git@github.com:cityofaustin/atd-vz-data.git"
   },
   "dependencies": {
-    "@apollo/react-hooks": "^3.0.0",
+    "@apollo/react-hooks": "^3.1.5",
     "@auth0/auth0-spa-js": "^1.13.1",
     "@coreui/coreui": "^2.1.12",
     "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.1",
@@ -20,6 +20,7 @@
     "@handsontable/react": "^3.1.3",
     "@turf/difference": "6.0.1",
     "apollo-boost": "^0.4.4",
+    "atd-kickstand": "github:cityofaustin/atd-kickstand#4016_extract_vze_graphql_table",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
@@ -39,7 +40,7 @@
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-apollo": "^3.0.0",
+    "react-apollo": "^3.1.5",
     "react-app-polyfill": "^1.0.1",
     "react-chartjs-2": "^2.7.6",
     "react-csv": "^1.1.1",
